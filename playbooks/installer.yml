@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks: 
+    - name: Install web componenets
+      apt: name={{item}} state=present update_cache=yes
+      with_items:
+       - apache2
+       - python-virtualenv
