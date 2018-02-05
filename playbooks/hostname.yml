@@ -1,0 +1,6 @@
+---
+  - hosts: all
+    tasks:
+    - name: getting host name and ips 
+      command: hostname
+      command: ifconfig
