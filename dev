@@ -1,0 +1,8 @@
+[lbs]
+165.227.103.243
+
+[web]
+159.89.42.123
+
+[control]
+165.227.210.188 ansible_connection=local
